@@ -100,3 +100,16 @@ body{
     margin-left: 30px;
     
    }
+   .cards-back
+   {
+    background-color: #fbdada;
+    height: 400px;
+    width: 100%;
+
+   }
+   .hd{
+    font-size: 33px;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+
+   }
+  

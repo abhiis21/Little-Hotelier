@@ -114,7 +114,7 @@ body{
    }
 
   /* Media Queries for Mobile Device */
-@media screen and (max-width: 550px)
+@media screen and (max-width: 500px)
 {
     .child-1{
         width: 200px;
@@ -147,11 +147,7 @@ body{
     .child-2{
         display: none;
     }
-    .image-model{
-        width: 150px;
-        height: 100px;
-        border-radius: 10px;
-       }
+  
     
        .btn-1{
         width: 120px;
@@ -179,7 +175,7 @@ body{
         cursor: pointer;
        }
        .basic-1{
-        background-color: #f9dbdc;
+      
         height: 100px;
         width: 100%;
        }
@@ -197,15 +193,11 @@ body{
         margin: 10px;
         margin-top: 20px;
         margin-left: 30px;
-        
+        flex-direction: column;
+        display: block;
+        justify-content: center;
        }
-       .cards-back
-       {
-        background-color: #fbdada;
-        height: 200px;
-        width: 100%;
-    
-       }
+      
        .hd{
         font-size: 33px;
         font-family: "Goudy Bookletter 1911", sans-serif;
@@ -214,7 +206,7 @@ body{
     
 }
 /* Tablet Device */
-@media screen and (min-width: 551px) and (max-width: 768px)
+@media screen and (min-width: 501px) and (max-width: 992px)
 {
     .child-1{
         width: 300px;

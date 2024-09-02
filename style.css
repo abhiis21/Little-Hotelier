@@ -147,8 +147,74 @@ body{
     .child-2{
         display: none;
     }
+    .image-model{
+        width: 150px;
+        height: 100px;
+        border-radius: 10px;
+       }
+    
+       .btn-1{
+        width: 120px;
+        padding: 7px;
+        border-radius: 10px;
+        font-size: 10px;
+        color:white;
+        background-color:black;
+        border: 2px solid black;
+        margin: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+       }
+    
+       .btn-2{
+        width: 70px;
+        padding: 3px;
+        border-radius: 10px;
+        font-size: 7px;
+        color: black;
+        background-color: aliceblue;
+        border: 2px solid black;
+        margin: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+       }
+       .basic-1{
+        background-color: #f9dbdc;
+        height: 100px;
+        width: 100%;
+       }
+       .text-3{
+        font-size: 10px;
+        font-weight: 300;
+        text-align: justify;
+        text-align: center;
+        margin-bottom: 10px;
+        padding-top: 40px;
+       }
+       .img-1{
+        padding: 7px;
+        border-radius: 20px;
+        margin: 10px;
+        margin-top: 20px;
+        margin-left: 30px;
+        
+       }
+       .cards-back
+       {
+        background-color: #fbdada;
+        height: 200px;
+        width: 100%;
+    
+       }
+       .hd{
+        font-size: 33px;
+        font-family: "Goudy Bookletter 1911", sans-serif;
+    
+       }
+    
 }
-@media screen and (min-width: 960px) and (max-width: 1300px)
+/* Tablet Device */
+@media screen and (min-width: 551px) and (max-width: 768px)
 {
     .child-1{
         width: 300px;
@@ -179,6 +245,72 @@ body{
         margin-bottom: 10px;
     }
     .child-2{
-        display: none;
+        width: 250px;
+        margin: 20px;
     }
+    .image-model{
+        width: 250px;
+        height: 150px;
+        border-radius: 10px;
+       }
+    
+       .btn-1{
+        width: 120px;
+        padding: 7px;
+        border-radius: 20px;
+        font-size: 10px;
+        color:white;
+        background-color:black;
+        border: 2px solid black;
+        margin: 10px;
+        margin-left: 30px;
+        cursor: pointer;
+       }
+    
+       .btn-2{
+        width: 100px;
+        padding: 7px;
+        border-radius: 20px;
+        font-size: 10px;
+        color: black;
+        background-color: aliceblue;
+        border: 2px solid black;
+        margin: 10px;
+        margin-left: 30px;
+        cursor: pointer;
+       }
+       .basic-1{
+        background-color: #f9dbdc;
+        height: 140px;
+        width: 100%;
+       }
+       .text-3{
+        font-size: 20px;
+        font-weight: 400;
+        text-align: justify;
+        text-align: center;
+        margin-bottom: 10px;
+        padding-top: 40px;
+       }
+       .img-1{
+        padding: 7px;
+        border-radius: 20px;
+        margin: 10px;
+        margin-top: 20px;
+        margin-left: 30px;
+        
+       }
+       .cards-back
+       {
+        background-color: #fbdada;
+        height: 300px;
+        width: 100%;
+    
+       }
+       .hd{
+        font-size: 23px;
+        font-family: "Goudy Bookletter 1911", sans-serif;
+    
+       }
+    
 }

@@ -203,6 +203,10 @@ body{
         font-family: "Goudy Bookletter 1911", sans-serif;
     
        }
+       .img-set
+       {
+        display: none;
+       }
     
 }
 /* Tablet Device */
